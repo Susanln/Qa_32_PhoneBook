@@ -5,6 +5,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Qa_32_PhoneBook.main" options="--add-modules java.base" />
       <module name="Qa_32_PhoneBook.test" options="--add-modules java.base" />
     </option>
   </component>
