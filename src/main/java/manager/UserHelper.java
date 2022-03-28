@@ -55,4 +55,22 @@ public class UserHelper extends HelperBase{
 
         return er;
     }
+
+    public boolean isAlertDisplayed() {
+        Alert alert = new WebDriverWait(wd, 5).until(ExpectedConditions.alertIsPresent());
+        if(alert==null)
+        {
+            return false;
+        }else{
+            return true;
+        }
+    }
+    public boolean isErrorWrongFormat() {
+        Alert alert = new WebDriverWait(wd, 5).until(ExpectedConditions.alertIsPresent());
+        wd.switchTo().alert();
+        String error = alert.getText();
+        System.out.println(error);
+        alert.accept();
+        return  error.contains("Wrong email or password format");
+    }
 }

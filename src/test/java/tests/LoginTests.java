@@ -21,14 +21,14 @@ public class LoginTests extends  TestBase {
     public void loginSuccessNew()
     {
         app.getUser().openLoginRegistrationForm();
-        app.getUser().fillLoginRegistrationForm("noa@gmail.com","Nnoa12345$");
+        app.getUser().fillLoginRegistrationForm("asdhgf@gmail.com","Nnoa12345$");
         app.getUser().submitLogin();
         Assert.assertTrue(app.getUser().isLoginRegistrationSuccess());
     }
     @Test
     public void loginSuccessNewModel()
     {
-        User user = new User().withEmail("noa@gmail.com").withPassword("Nnoa12345$");
+        User user = new User().withEmail("asdhgf@gmail.com").withPassword("Nnoa12345$");
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(user);
         app.getUser().submitLogin();
@@ -36,14 +36,15 @@ public class LoginTests extends  TestBase {
     }
     @Test
     public void loginUnsuccess(){
-        User user = new User().withEmail("noa@gmail.com").withPassword("12345");
+        User user = new User().withEmail("asdhgf@gmail.com").withPassword("12345");
         WebDriver wd;
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(user);
         app.getUser().submitLogin();
-
-        app.getUser().findAlert();
-        Assert.assertTrue(app.getUser().isErrorDisplayed());
+        Assert.assertTrue(app.getUser().isAlertDisplayed());
+       // app.getUser().findAlert();
+       // Assert.assertTrue(app.getUser().isErrorDisplayed());
+        Assert.assertTrue(app.getUser().isErrorWrongFormat());
     }
 
 }
