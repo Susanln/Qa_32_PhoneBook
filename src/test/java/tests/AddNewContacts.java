@@ -22,13 +22,15 @@ public class AddNewContacts extends TestBase{
         int index = (int)System.currentTimeMillis()/1000%3600;
         Contact contact = Contact.builder().name("Max").lastName("Kugel").phone("586"+ index + "569").email("no456a" +index +"@gmail.com")
                 .address("Bobruisk").description("friend").build();
+        System.out.println(contact.getName());
+
         int beforeContacts = app.getContact().getContactCount();
         app.getContact().openAddForm();
         app.getContact().fillAddContactForm(contact);
         app.getContact().saveContact();
         int afterContacts = app.getContact().getContactCount();
         Assert.assertEquals(afterContacts-1,beforeContacts);
-
+        Assert.assertTrue(app.getContact().isContactByName(contact.getName()));
+        Assert.assertTrue(app.getContact().isContactByPhone(contact.getPhone()));
     }
-
 }

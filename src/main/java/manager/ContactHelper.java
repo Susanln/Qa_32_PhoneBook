@@ -3,6 +3,9 @@ package manager;
 import models.Contact;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 public class ContactHelper extends HelperBase{
 
@@ -29,5 +32,28 @@ public class ContactHelper extends HelperBase{
 
     public int getContactCount() {
         return wd.findElements(By.cssSelector("[class='contact-page_leftdiv__yhyke'] div")).size();
+    }
+
+    public boolean isContactByName(String name) {
+        List<WebElement> list = wd.findElements(By.cssSelector("h2"));
+        for(WebElement e: list)
+        {
+            if(e.getText().equals(name))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+    public boolean isContactByPhone(String phone) {
+        List<WebElement> list = wd.findElements(By.cssSelector("h3"));
+        for(WebElement e: list)
+        {
+            if(e.getText().equals(phone))
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }
