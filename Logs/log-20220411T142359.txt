@@ -1,0 +1,46 @@
+14:24:01.321 INFO  manager.ApplicationManager - All tests start in 'ChromeDriver'
+14:24:09.025 INFO  manager.HelperBase - Login/Reg form opened
+14:24:09.210 INFO  manager.HelperBase - Fields log/reg form filled
+14:24:09.244 INFO  manager.HelperBase - Logged
+14:24:09.838 INFO  tests.TestBase - Logged with:asdhgf@gmail.com,Nnoa12345$
+14:24:09.860 INFO  tests.TestBase - Start test---->public void tests.AddNewContacts.addNewContactSuccess()
+14:24:10.023 INFO  manager.HelperBase - Add contacts form opened
+14:24:10.514 INFO  manager.HelperBase - Fields contacts filled
+14:24:10.536 INFO  tests.TestBase - Fill addContact form:Contact(name=Max, lastName=Kugel, phone=5862008569, email=no456a2008@gmail.com, address=Bobruisk, description=friend)
+14:24:10.574 INFO  manager.HelperBase - Contact added
+14:24:10.935 INFO  tests.TestBase - ****************************************************************************************************
+14:24:10.937 INFO  tests.TestBase - Start test---->public void tests.LoginTests.loginSuccessNew()
+14:24:10.980 INFO  manager.HelperBase - Logged out
+14:24:11.015 INFO  manager.HelperBase - Login/Reg form opened
+14:24:11.187 INFO  manager.HelperBase - Fields log/reg form filled
+14:24:11.187 INFO  tests.TestBase - Loggin with: email=asdhgf@gmail.com password=Nnoa12345$
+14:24:11.222 INFO  manager.HelperBase - Logged
+14:24:11.335 INFO  tests.TestBase - ****************************************************************************************************
+14:24:11.336 INFO  tests.TestBase - Start test---->public void tests.LoginTests.loginSuccessNewModel()
+14:24:11.372 INFO  manager.HelperBase - Logged out
+14:24:11.404 INFO  manager.HelperBase - Login/Reg form opened
+14:24:11.565 INFO  manager.HelperBase - Fields log/reg form filled
+14:24:11.570 INFO  tests.TestBase - Loggin with:User{Email='asdhgf@gmail.com', password='Nnoa12345$'}
+14:24:11.600 INFO  manager.HelperBase - Logged
+14:24:11.715 INFO  tests.TestBase - ****************************************************************************************************
+14:24:11.716 INFO  tests.TestBase - Start test---->public void tests.LoginTests.loginUnsuccess()
+14:24:11.754 INFO  manager.HelperBase - Logged out
+14:24:11.786 INFO  manager.HelperBase - Login/Reg form opened
+14:24:11.941 INFO  manager.HelperBase - Fields log/reg form filled
+14:24:11.941 INFO  tests.TestBase - Login with:User{Email='asdhgf@gmail.com', password='12345'}
+14:24:11.974 INFO  manager.HelperBase - Logged
+14:24:12.488 INFO  manager.HelperBase - Alert 'displayed'
+14:24:12.495 INFO  tests.TestBase - ****************************************************************************************************
+14:24:12.496 INFO  tests.TestBase - Start test---->public void tests.RegistrationTests.registrationSuccess()
+14:24:19.540 INFO  manager.HelperBase - Login/Reg form opened
+14:24:19.727 INFO  manager.HelperBase - Fields log/reg form filled
+14:24:19.727 INFO  tests.TestBase - Registration with: Login=no456a2017@gmail.compassword=Nnoa12345$
+14:24:19.758 INFO  manager.HelperBase - Registered
+14:24:20.031 INFO  tests.TestBase - ****************************************************************************************************
+14:24:20.032 INFO  tests.TestBase - Start test---->public void tests.RegistrationTests.registrationSuccessModel()
+14:24:20.086 INFO  manager.HelperBase - Logged out
+14:24:20.118 INFO  manager.HelperBase - Login/Reg form opened
+14:24:20.287 INFO  manager.HelperBase - Fields log/reg form filled
+14:24:20.287 INFO  tests.TestBase - Registration with:User{Email='no456b2018@gmail.com', password='Nnoa12345$'}
+14:24:20.319 INFO  manager.HelperBase - Registered
+14:24:20.433 INFO  tests.TestBase - ****************************************************************************************************

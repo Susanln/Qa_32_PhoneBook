@@ -15,6 +15,7 @@ public class ContactHelper extends HelperBase{
 
     public void openAddForm() {
         click(By.xpath("//a[@href='/add']"));
+        logger.info("Add contacts form opened");
     }
 
     public void fillAddContactForm(Contact contact) {
@@ -24,10 +25,12 @@ public class ContactHelper extends HelperBase{
         type(By.xpath("//*[@placeholder='email']"),contact.getEmail());
         type(By.xpath("//*[@placeholder='Address']"),contact.getAddress());
         type(By.xpath("//*[@placeholder='description']"),contact.getDescription());
+        logger.info("Fields contacts filled");
     }
 
     public void saveContact() {
         click(By.xpath("//*[text()='Save']"));
+        logger.info("Contact added");
     }
 
     public int getContactCount() {

@@ -1,0 +1,41 @@
+14:16:36.160 INFO  manager.ApplicationManager - All tests start in 'ChromeDriver'
+14:16:43.829 INFO  manager.HelperBase - Login/Reg form opened
+14:16:44.013 INFO  manager.HelperBase - Fields log/reg form filled
+14:16:44.049 INFO  manager.HelperBase - Logged
+14:16:44.643 INFO  tests.TestBase - Logged with:asdhgf@gmail.com,Nnoa12345$
+14:16:44.666 INFO  tests.TestBase - Start test---->public void tests.AddNewContacts.addNewContactSuccess()
+14:16:44.877 INFO  manager.HelperBase - Add contacts form opened
+14:16:45.360 INFO  manager.HelperBase - Fields contacts filled
+14:16:45.374 INFO  tests.TestBase - Fill addContact form:Contact(name=Max, lastName=Kugel, phone=5861563569, email=no456a1563@gmail.com, address=Bobruisk, description=friend)
+14:16:45.409 INFO  manager.HelperBase - Contact added
+14:16:45.812 INFO  tests.TestBase - ****************************************************************************************************
+14:16:45.814 INFO  tests.TestBase - Start test---->public void tests.LoginTests.loginSuccessNew()
+14:16:45.856 INFO  manager.HelperBase - Logged out
+14:16:45.888 INFO  manager.HelperBase - Login/Reg form opened
+14:16:46.054 INFO  manager.HelperBase - Fields log/reg form filled
+14:16:46.083 INFO  manager.HelperBase - Logged
+14:16:46.196 INFO  tests.TestBase - ****************************************************************************************************
+14:16:46.196 INFO  tests.TestBase - Start test---->public void tests.LoginTests.loginSuccessNewModel()
+14:16:46.236 INFO  manager.HelperBase - Logged out
+14:16:46.268 INFO  manager.HelperBase - Login/Reg form opened
+14:16:46.435 INFO  manager.HelperBase - Fields log/reg form filled
+14:16:46.466 INFO  manager.HelperBase - Logged
+14:16:46.581 INFO  tests.TestBase - ****************************************************************************************************
+14:16:46.582 INFO  tests.TestBase - Start test---->public void tests.LoginTests.loginUnsuccess()
+14:16:46.619 INFO  manager.HelperBase - Logged out
+14:16:46.654 INFO  manager.HelperBase - Login/Reg form opened
+14:16:46.808 INFO  manager.HelperBase - Fields log/reg form filled
+14:16:46.839 INFO  manager.HelperBase - Logged
+14:16:47.354 INFO  manager.HelperBase - Alert 'displayed'
+14:16:47.362 INFO  tests.TestBase - ****************************************************************************************************
+14:16:47.364 INFO  tests.TestBase - Start test---->public void tests.RegistrationTests.registrationSuccess()
+14:16:54.412 INFO  manager.HelperBase - Login/Reg form opened
+14:16:54.601 INFO  manager.HelperBase - Fields log/reg form filled
+14:16:54.632 INFO  manager.HelperBase - Registered
+14:16:54.907 INFO  tests.TestBase - ****************************************************************************************************
+14:16:54.908 INFO  tests.TestBase - Start test---->public void tests.RegistrationTests.registrationSuccessModel()
+14:16:54.948 INFO  manager.HelperBase - Logged out
+14:16:54.982 INFO  manager.HelperBase - Login/Reg form opened
+14:16:55.152 INFO  manager.HelperBase - Fields log/reg form filled
+14:16:55.183 INFO  manager.HelperBase - Registered
+14:16:55.298 INFO  tests.TestBase - ****************************************************************************************************

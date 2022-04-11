@@ -1,0 +1,8 @@
+14:40:52.429 INFO  manager.ApplicationManager - All tests start in 'ChromeDriver'
+14:40:53.383 INFO  tests.TestBase - Start test---->public void tests.LoginTests.loginUnsuccess()
+14:41:00.472 INFO  manager.HelperBase - Login/Reg form opened
+14:41:00.647 INFO  manager.HelperBase - Fields log/reg form filled
+14:41:00.653 INFO  tests.TestBase - Login with:User{Email='asdhgf@gmail.com', password='12345'}
+14:41:00.689 INFO  manager.HelperBase - Logged
+14:41:02.071 INFO  manager.HelperBase - Alert 'displayed'
+14:41:02.084 INFO  tests.TestBase - ****************************************************************************************************

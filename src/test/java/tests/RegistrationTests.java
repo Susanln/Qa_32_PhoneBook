@@ -19,6 +19,7 @@ public class RegistrationTests extends TestBase {
         int index = (int)System.currentTimeMillis()/1000%3600;
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm("no456a" +index +"@gmail.com","Nnoa12345$");
+        logger.info("Registration with: Login=no456a" +index +"@gmail.com"+ "password=Nnoa12345$" );
         app.getUser().submitRegistration();
         Assert.assertTrue(app.getUser().isLoginRegistrationSuccess());
 
@@ -30,6 +31,7 @@ public class RegistrationTests extends TestBase {
         User user = new User().withEmail("no456b" +index +"@gmail.com").withPassword("Nnoa12345$");
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(user);
+        logger.info("Registration with:"+ user.toString());
         app.getUser().submitRegistration();
         Assert.assertTrue(app.getUser().isLoginRegistrationSuccess());
 

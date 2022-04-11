@@ -14,7 +14,7 @@ public class AddNewContacts extends TestBase{
             app.getUser().fillLoginRegistrationForm("asdhgf@gmail.com","Nnoa12345$");
             app.getUser().submitLogin();
             Assert.assertTrue(app.getUser().isLoginRegistrationSuccess());
-        }
+        }logger.info("Logged with:asdhgf@gmail.com,Nnoa12345$" );
 
     }
     @Test
@@ -27,6 +27,7 @@ public class AddNewContacts extends TestBase{
         int beforeContacts = app.getContact().getContactCount();
         app.getContact().openAddForm();
         app.getContact().fillAddContactForm(contact);
+        logger.info("Fill addContact form:" + contact.toString());
         app.getContact().saveContact();
         int afterContacts = app.getContact().getContactCount();
         Assert.assertEquals(afterContacts-1,beforeContacts);
