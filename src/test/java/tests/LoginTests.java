@@ -1,5 +1,6 @@
 package tests;
 
+import manager.MyDataProvider;
 import models.User;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
@@ -7,6 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class LoginTests extends TestBase {
+
     @BeforeMethod
     public void preCondition() {
         if (app.getUser().isLoginRegistrationSuccess()) {
@@ -14,11 +16,11 @@ public class LoginTests extends TestBase {
         }
     }
 
-    @Test
-    public void loginSuccessNew() {
+    @Test(dataProvider = "validLoginData",dataProviderClass = MyDataProvider.class)
+    public void loginSuccessNew(String email, String password) {
         app.getUser().openLoginRegistrationForm();
-        app.getUser().fillLoginRegistrationForm("asdhgf@gmail.com", "Nnoa12345$");
-        logger.info("Loggin with: email=asdhgf@gmail.com password=Nnoa12345$");
+        app.getUser().fillLoginRegistrationForm(email,password);
+        logger.info("Loggin with email: "+ email + "password: "+password);
         app.getUser().submitLogin();
         Assert.assertTrue(app.getUser().isLoginRegistrationSuccess());
     }
@@ -36,7 +38,6 @@ public class LoginTests extends TestBase {
     @Test
     public void loginUnsuccess() {
         User user = new User().withEmail("asdhgf@gmail.com").withPassword("12345");
-        WebDriver wd;
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(user);
         logger.info("Login with:" + user.toString());

@@ -1,0 +1,391 @@
+13:01:57.730 INFO  manager.TestNgMyListener - onStart
+13:01:59.261 INFO  manager.ApplicationManager - All tests start in 'ChromeDriver'
+13:01:59.988 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:07.036 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:07.037 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/login']
+13:02:07.047 INFO  manager.MyListener - The element with locator--->By.cssSelector: [href='/login']<----was found
+13:02:07.098 INFO  manager.HelperBase - Login/Reg form opened
+13:02:07.099 INFO  manager.MyListener - Start find element --->By.xpath: //input[1]
+13:02:07.111 INFO  manager.MyListener - The element with locator--->By.xpath: //input[1]<----was found
+13:02:07.202 INFO  manager.MyListener - Start find element --->By.xpath: //input[2]
+13:02:07.212 INFO  manager.MyListener - The element with locator--->By.xpath: //input[2]<----was found
+13:02:07.292 INFO  manager.HelperBase - Fields log/reg form filled
+13:02:07.292 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()=' Login']
+13:02:07.302 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()=' Login']<----was found
+13:02:07.328 INFO  manager.HelperBase - Logged
+13:02:07.329 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:07.923 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:07.924 INFO  tests.TestBase - Logged with:asdhgf@gmail.com,Nnoa12345$
+13:02:07.925 INFO  manager.TestNgMyListener - onStart
+13:02:07.943 INFO  tests.TestBase - Start test---->addNewContact
+13:02:07.944 INFO  manager.TestNgMyListener - onTestStartnull
+13:02:07.948 INFO  manager.MyListener - Start find element --->By.xpath: //a[@href='/add']
+13:02:07.958 INFO  manager.MyListener - The element with locator--->By.xpath: //a[@href='/add']<----was found
+13:02:07.987 INFO  manager.HelperBase - Add contacts form opened
+13:02:07.988 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Name']
+13:02:07.999 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Name']<----was found
+13:02:08.071 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Last Name']
+13:02:08.082 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Last Name']<----was found
+13:02:08.149 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Phone']
+13:02:08.159 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Phone']<----was found
+13:02:08.236 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='email']
+13:02:08.246 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='email']<----was found
+13:02:08.339 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Address']
+13:02:08.350 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Address']<----was found
+13:02:08.432 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='description']
+13:02:08.443 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='description']<----was found
+13:02:08.518 INFO  manager.HelperBase - Fields contacts filled
+13:02:08.534 INFO  tests.TestBase - Fill addContact form:Contact(name=Max, lastName=Kugel, phone=586686569, email=no456a686@gmail.com, address=Bobruisk, description=friend)
+13:02:08.536 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Save']
+13:02:08.548 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Save']<----was found
+13:02:08.607 INFO  manager.HelperBase - Contact added
+13:02:08.609 INFO  manager.TestNgMyListener - onTestSuccess
+13:02:08.610 INFO  tests.TestBase - ****************************************************************************************************
+13:02:08.612 INFO  tests.TestBase - Start test---->addNewContactSuccess
+13:02:08.612 INFO  manager.TestNgMyListener - onTestStartnull
+13:02:08.613 INFO  manager.MyListener - Start find element --->By.cssSelector: [class='contact-page_leftdiv__yhyke'] div
+13:02:08.891 INFO  manager.MyListener - The element with locator--->By.cssSelector: [class='contact-page_leftdiv__yhyke'] div<----was found
+13:02:08.891 INFO  manager.MyListener - Start find element --->By.xpath: //a[@href='/add']
+13:02:08.897 INFO  manager.MyListener - The element with locator--->By.xpath: //a[@href='/add']<----was found
+13:02:08.920 INFO  manager.HelperBase - Add contacts form opened
+13:02:08.920 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Name']
+13:02:08.929 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Name']<----was found
+13:02:08.997 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Last Name']
+13:02:09.004 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Last Name']<----was found
+13:02:09.069 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Phone']
+13:02:09.076 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Phone']<----was found
+13:02:09.150 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='email']
+13:02:09.158 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='email']<----was found
+13:02:09.251 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Address']
+13:02:09.259 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Address']<----was found
+13:02:09.336 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='description']
+13:02:09.342 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='description']<----was found
+13:02:09.412 INFO  manager.HelperBase - Fields contacts filled
+13:02:09.413 INFO  tests.TestBase - Fill addContact form:Contact(name=Max, lastName=Kugel, phone=586686569, email=no456a686@gmail.com, address=Bobruisk, description=friend)
+13:02:09.413 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Save']
+13:02:09.420 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Save']<----was found
+13:02:09.459 INFO  manager.HelperBase - Contact added
+13:02:09.459 INFO  manager.MyListener - Start find element --->By.cssSelector: [class='contact-page_leftdiv__yhyke'] div
+13:02:16.480 INFO  manager.MyListener - The element with locator--->By.cssSelector: [class='contact-page_leftdiv__yhyke'] div<----was found
+13:02:16.481 INFO  manager.MyListener - Start find element --->By.cssSelector: h2
+13:02:23.497 INFO  manager.MyListener - The element with locator--->By.cssSelector: h2<----was found
+13:02:23.498 INFO  manager.TestNgMyListener - onTestFailure
+13:02:23.498 INFO  tests.TestBase - ****************************************************************************************************
+13:02:23.504 INFO  tests.TestBase - Start test---->loginSuccessNew
+13:02:23.504 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:23.514 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:23.514 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:23.523 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:23.557 INFO  manager.HelperBase - Logged out
+13:02:23.558 INFO  manager.TestNgMyListener - onTestStartnull
+13:02:23.558 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/login']
+13:02:23.572 INFO  manager.MyListener - The element with locator--->By.cssSelector: [href='/login']<----was found
+13:02:23.605 INFO  manager.HelperBase - Login/Reg form opened
+13:02:23.605 INFO  manager.MyListener - Start find element --->By.xpath: //input[1]
+13:02:23.615 INFO  manager.MyListener - The element with locator--->By.xpath: //input[1]<----was found
+13:02:23.706 INFO  manager.MyListener - Start find element --->By.xpath: //input[2]
+13:02:23.716 INFO  manager.MyListener - The element with locator--->By.xpath: //input[2]<----was found
+13:02:23.803 INFO  manager.HelperBase - Fields log/reg form filled
+13:02:23.808 INFO  tests.TestBase - Loggin with email: noa@gmail.compassword: Nnoa12345$
+13:02:23.808 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()=' Login']
+13:02:23.820 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()=' Login']<----was found
+13:02:23.847 INFO  manager.HelperBase - Logged
+13:02:23.847 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:24.068 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:24.069 INFO  manager.TestNgMyListener - onTestSuccess
+13:02:24.069 INFO  tests.TestBase - ****************************************************************************************************
+13:02:24.070 INFO  tests.TestBase - Start test---->loginSuccessNew
+13:02:24.070 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:24.076 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:24.076 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:24.082 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:24.109 INFO  manager.HelperBase - Logged out
+13:02:24.110 INFO  manager.TestNgMyListener - onTestStartnull
+13:02:24.110 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/login']
+13:02:24.117 INFO  manager.MyListener - The element with locator--->By.cssSelector: [href='/login']<----was found
+13:02:24.144 INFO  manager.HelperBase - Login/Reg form opened
+13:02:24.144 INFO  manager.MyListener - Start find element --->By.xpath: //input[1]
+13:02:24.152 INFO  manager.MyListener - The element with locator--->By.xpath: //input[1]<----was found
+13:02:24.232 INFO  manager.MyListener - Start find element --->By.xpath: //input[2]
+13:02:24.238 INFO  manager.MyListener - The element with locator--->By.xpath: //input[2]<----was found
+13:02:24.319 INFO  manager.HelperBase - Fields log/reg form filled
+13:02:24.319 INFO  tests.TestBase - Loggin with email: noa@gmail.compassword: Nnoa12345$
+13:02:24.320 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()=' Login']
+13:02:24.326 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()=' Login']<----was found
+13:02:24.351 INFO  manager.HelperBase - Logged
+13:02:24.351 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:24.464 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:24.465 INFO  manager.TestNgMyListener - onTestSuccess
+13:02:24.465 INFO  tests.TestBase - ****************************************************************************************************
+13:02:24.465 INFO  tests.TestBase - Start test---->loginSuccessNew
+13:02:24.466 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:24.473 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:24.473 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:24.479 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:24.504 INFO  manager.HelperBase - Logged out
+13:02:24.504 INFO  manager.TestNgMyListener - onTestStartnull
+13:02:24.504 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/login']
+13:02:24.512 INFO  manager.MyListener - The element with locator--->By.cssSelector: [href='/login']<----was found
+13:02:24.538 INFO  manager.HelperBase - Login/Reg form opened
+13:02:24.538 INFO  manager.MyListener - Start find element --->By.xpath: //input[1]
+13:02:24.546 INFO  manager.MyListener - The element with locator--->By.xpath: //input[1]<----was found
+13:02:24.626 INFO  manager.MyListener - Start find element --->By.xpath: //input[2]
+13:02:24.632 INFO  manager.MyListener - The element with locator--->By.xpath: //input[2]<----was found
+13:02:24.709 INFO  manager.HelperBase - Fields log/reg form filled
+13:02:24.710 INFO  tests.TestBase - Loggin with email: noa@gmail.compassword: Nnoa12345$
+13:02:24.710 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()=' Login']
+13:02:24.718 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()=' Login']<----was found
+13:02:24.743 INFO  manager.HelperBase - Logged
+13:02:24.743 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:24.857 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:24.858 INFO  manager.TestNgMyListener - onTestSuccess
+13:02:24.858 INFO  tests.TestBase - ****************************************************************************************************
+13:02:24.859 INFO  tests.TestBase - Start test---->loginSuccessNew
+13:02:24.860 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:24.868 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:24.868 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:24.875 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:24.904 INFO  manager.HelperBase - Logged out
+13:02:24.905 INFO  manager.TestNgMyListener - onTestStartnull
+13:02:24.905 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/login']
+13:02:24.913 INFO  manager.MyListener - The element with locator--->By.cssSelector: [href='/login']<----was found
+13:02:24.941 INFO  manager.HelperBase - Login/Reg form opened
+13:02:24.942 INFO  manager.MyListener - Start find element --->By.xpath: //input[1]
+13:02:24.950 INFO  manager.MyListener - The element with locator--->By.xpath: //input[1]<----was found
+13:02:25.037 INFO  manager.MyListener - Start find element --->By.xpath: //input[2]
+13:02:25.043 INFO  manager.MyListener - The element with locator--->By.xpath: //input[2]<----was found
+13:02:25.121 INFO  manager.HelperBase - Fields log/reg form filled
+13:02:25.121 INFO  tests.TestBase - Loggin with email: noa@gmail.compassword: Nnoa12345$
+13:02:25.121 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()=' Login']
+13:02:25.126 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()=' Login']<----was found
+13:02:25.151 INFO  manager.HelperBase - Logged
+13:02:25.152 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:25.265 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:25.265 INFO  manager.TestNgMyListener - onTestSuccess
+13:02:25.265 INFO  tests.TestBase - ****************************************************************************************************
+13:02:25.266 INFO  tests.TestBase - Start test---->loginSuccessNewModel
+13:02:25.266 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:25.273 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:25.274 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:25.279 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:25.305 INFO  manager.HelperBase - Logged out
+13:02:25.306 INFO  manager.TestNgMyListener - onTestStartnull
+13:02:25.306 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/login']
+13:02:25.314 INFO  manager.MyListener - The element with locator--->By.cssSelector: [href='/login']<----was found
+13:02:25.342 INFO  manager.HelperBase - Login/Reg form opened
+13:02:25.343 INFO  manager.MyListener - Start find element --->By.xpath: //input[1]
+13:02:25.348 INFO  manager.MyListener - The element with locator--->By.xpath: //input[1]<----was found
+13:02:25.435 INFO  manager.MyListener - Start find element --->By.xpath: //input[2]
+13:02:25.441 INFO  manager.MyListener - The element with locator--->By.xpath: //input[2]<----was found
+13:02:25.517 INFO  manager.HelperBase - Fields log/reg form filled
+13:02:25.520 INFO  tests.TestBase - Loggin with:User{Email='asdhgf@gmail.com', password='Nnoa12345$'}
+13:02:25.520 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()=' Login']
+13:02:25.526 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()=' Login']<----was found
+13:02:25.550 INFO  manager.HelperBase - Logged
+13:02:25.550 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:25.663 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:25.664 INFO  manager.TestNgMyListener - onTestSuccess
+13:02:25.664 INFO  tests.TestBase - ****************************************************************************************************
+13:02:25.665 INFO  tests.TestBase - Start test---->loginUnsuccess
+13:02:25.665 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:25.671 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:25.671 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:25.677 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:25.703 INFO  manager.HelperBase - Logged out
+13:02:25.703 INFO  manager.TestNgMyListener - onTestStartnull
+13:02:25.704 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/login']
+13:02:25.711 INFO  manager.MyListener - The element with locator--->By.cssSelector: [href='/login']<----was found
+13:02:25.738 INFO  manager.HelperBase - Login/Reg form opened
+13:02:25.738 INFO  manager.MyListener - Start find element --->By.xpath: //input[1]
+13:02:25.745 INFO  manager.MyListener - The element with locator--->By.xpath: //input[1]<----was found
+13:02:25.838 INFO  manager.MyListener - Start find element --->By.xpath: //input[2]
+13:02:25.846 INFO  manager.MyListener - The element with locator--->By.xpath: //input[2]<----was found
+13:02:25.916 INFO  manager.HelperBase - Fields log/reg form filled
+13:02:25.917 INFO  tests.TestBase - Login with:User{Email='asdhgf@gmail.com', password='12345'}
+13:02:25.917 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()=' Login']
+13:02:25.924 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()=' Login']<----was found
+13:02:25.947 INFO  manager.HelperBase - Logged
+13:02:26.460 INFO  manager.HelperBase - Alert 'displayed'
+13:02:26.466 INFO  manager.TestNgMyListener - onTestSuccess
+13:02:26.467 INFO  tests.TestBase - ****************************************************************************************************
+13:02:26.468 INFO  manager.TestNgMyListener - onTestStartnull
+13:02:28.408 INFO  manager.TestNgMyListener - onTestSuccess
+13:02:28.409 INFO  tests.TestBase - Start test---->registrationSuccess
+13:02:28.409 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:35.445 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:35.445 INFO  manager.TestNgMyListener - onTestStartnull
+13:02:35.446 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/login']
+13:02:35.452 INFO  manager.MyListener - The element with locator--->By.cssSelector: [href='/login']<----was found
+13:02:35.469 INFO  manager.HelperBase - Login/Reg form opened
+13:02:35.469 INFO  manager.MyListener - Start find element --->By.xpath: //input[1]
+13:02:35.477 INFO  manager.MyListener - The element with locator--->By.xpath: //input[1]<----was found
+13:02:35.563 INFO  manager.MyListener - Start find element --->By.xpath: //input[2]
+13:02:35.569 INFO  manager.MyListener - The element with locator--->By.xpath: //input[2]<----was found
+13:02:35.642 INFO  manager.HelperBase - Fields log/reg form filled
+13:02:35.643 INFO  tests.TestBase - Registration with: Login=no456a713@gmail.compassword=Nnoa12345$
+13:02:35.643 INFO  manager.MyListener - Start find element --->By.xpath: //button[2]
+13:02:35.654 INFO  manager.MyListener - The element with locator--->By.xpath: //button[2]<----was found
+13:02:35.678 INFO  manager.HelperBase - Registered
+13:02:35.678 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:36.005 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:36.005 INFO  manager.TestNgMyListener - onTestSuccess
+13:02:36.006 INFO  tests.TestBase - ****************************************************************************************************
+13:02:36.006 INFO  tests.TestBase - Start test---->registrationSuccessModel
+13:02:36.007 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:36.012 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:36.012 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:36.018 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:36.045 INFO  manager.HelperBase - Logged out
+13:02:36.046 INFO  manager.TestNgMyListener - onTestStartnull
+13:02:36.047 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/login']
+13:02:36.055 INFO  manager.MyListener - The element with locator--->By.cssSelector: [href='/login']<----was found
+13:02:36.079 INFO  manager.HelperBase - Login/Reg form opened
+13:02:36.079 INFO  manager.MyListener - Start find element --->By.xpath: //input[1]
+13:02:36.086 INFO  manager.MyListener - The element with locator--->By.xpath: //input[1]<----was found
+13:02:36.160 INFO  manager.MyListener - Start find element --->By.xpath: //input[2]
+13:02:36.167 INFO  manager.MyListener - The element with locator--->By.xpath: //input[2]<----was found
+13:02:36.238 INFO  manager.HelperBase - Fields log/reg form filled
+13:02:36.238 INFO  tests.TestBase - Registration with:User{Email='no456b714@gmail.com', password='Nnoa12345$'}
+13:02:36.238 INFO  manager.MyListener - Start find element --->By.xpath: //button[2]
+13:02:36.245 INFO  manager.MyListener - The element with locator--->By.xpath: //button[2]<----was found
+13:02:36.270 INFO  manager.HelperBase - Registered
+13:02:36.271 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:36.384 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:36.385 INFO  manager.TestNgMyListener - onTestSuccess
+13:02:36.385 INFO  tests.TestBase - ****************************************************************************************************
+13:02:36.386 INFO  tests.TestBase - Start test---->RemoveAllContact
+13:02:36.386 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:02:36.393 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:02:36.394 INFO  manager.MyListener - Start find element --->By.xpath: //*[@href='/contacts']
+13:02:36.402 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@href='/contacts']<----was found
+13:02:36.429 INFO  manager.MyListener - Start find element --->By.xpath: //*[@class='contact-item_card__2SOIM']
+13:02:43.464 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@class='contact-item_card__2SOIM']<----was found
+13:02:43.465 INFO  manager.MyListener - Start find element --->By.xpath: //a[@href='/add']
+13:02:43.474 INFO  manager.MyListener - The element with locator--->By.xpath: //a[@href='/add']<----was found
+13:02:43.500 INFO  manager.HelperBase - Add contacts form opened
+13:02:43.500 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Name']
+13:02:43.510 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Name']<----was found
+13:02:43.579 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Last Name']
+13:02:43.589 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Last Name']<----was found
+13:02:43.655 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Phone']
+13:02:43.664 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Phone']<----was found
+13:02:43.729 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='email']
+13:02:43.739 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='email']<----was found
+13:02:43.810 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Address']
+13:02:43.819 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Address']<----was found
+13:02:43.884 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='description']
+13:02:43.893 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='description']<----was found
+13:02:43.954 INFO  manager.HelperBase - Fields contacts filled
+13:02:43.954 INFO  tests.TestBase - Fill addContact form:Contact(name=Max, lastName=Kugel, phone=586721569, email=no456a721@gmail.com, address=Bobruisk, description=friend)
+13:02:43.954 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Save']
+13:02:43.964 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Save']<----was found
+13:02:44.000 INFO  manager.HelperBase - Contact added
+13:02:44.501 INFO  manager.MyListener - Start find element --->By.xpath: //a[@href='/add']
+13:02:44.506 INFO  manager.MyListener - The element with locator--->By.xpath: //a[@href='/add']<----was found
+13:02:44.524 INFO  manager.HelperBase - Add contacts form opened
+13:02:44.524 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Name']
+13:02:44.531 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Name']<----was found
+13:02:44.592 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Last Name']
+13:02:44.598 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Last Name']<----was found
+13:02:44.660 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Phone']
+13:02:44.667 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Phone']<----was found
+13:02:44.732 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='email']
+13:02:44.741 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='email']<----was found
+13:02:44.809 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Address']
+13:02:44.816 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Address']<----was found
+13:02:44.880 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='description']
+13:02:44.886 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='description']<----was found
+13:02:44.949 INFO  manager.HelperBase - Fields contacts filled
+13:02:44.949 INFO  tests.TestBase - Fill addContact form:Contact(name=Max, lastName=Kugel, phone=586722569, email=no456a722@gmail.com, address=Bobruisk, description=friend)
+13:02:44.950 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Save']
+13:02:44.956 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Save']<----was found
+13:02:44.991 INFO  manager.HelperBase - Contact added
+13:02:45.491 INFO  manager.MyListener - Start find element --->By.xpath: //a[@href='/add']
+13:02:45.496 INFO  manager.MyListener - The element with locator--->By.xpath: //a[@href='/add']<----was found
+13:02:45.514 INFO  manager.HelperBase - Add contacts form opened
+13:02:45.514 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Name']
+13:02:45.520 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Name']<----was found
+13:02:45.580 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Last Name']
+13:02:45.586 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Last Name']<----was found
+13:02:45.646 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Phone']
+13:02:45.652 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Phone']<----was found
+13:02:45.717 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='email']
+13:02:45.724 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='email']<----was found
+13:02:45.791 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Address']
+13:02:45.797 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Address']<----was found
+13:02:45.867 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='description']
+13:02:45.874 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='description']<----was found
+13:02:45.941 INFO  manager.HelperBase - Fields contacts filled
+13:02:45.942 INFO  tests.TestBase - Fill addContact form:Contact(name=Max, lastName=Kugel, phone=586723569, email=no456a723@gmail.com, address=Bobruisk, description=friend)
+13:02:45.942 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Save']
+13:02:45.949 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Save']<----was found
+13:02:45.988 INFO  manager.HelperBase - Contact added
+13:02:46.488 INFO  manager.MyListener - Start find element --->By.xpath: //a[@href='/add']
+13:02:46.493 INFO  manager.MyListener - The element with locator--->By.xpath: //a[@href='/add']<----was found
+13:02:46.511 INFO  manager.HelperBase - Add contacts form opened
+13:02:46.512 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Name']
+13:02:46.519 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Name']<----was found
+13:02:46.578 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Last Name']
+13:02:46.584 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Last Name']<----was found
+13:02:46.646 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Phone']
+13:02:46.653 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Phone']<----was found
+13:02:46.717 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='email']
+13:02:46.724 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='email']<----was found
+13:02:46.792 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Address']
+13:02:46.799 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Address']<----was found
+13:02:46.862 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='description']
+13:02:46.869 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='description']<----was found
+13:02:46.932 INFO  manager.HelperBase - Fields contacts filled
+13:02:46.932 INFO  tests.TestBase - Fill addContact form:Contact(name=Max, lastName=Kugel, phone=586724569, email=no456a724@gmail.com, address=Bobruisk, description=friend)
+13:02:46.932 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Save']
+13:02:46.939 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Save']<----was found
+13:02:46.977 INFO  manager.HelperBase - Contact added
+13:02:47.477 INFO  manager.MyListener - Start find element --->By.xpath: //a[@href='/add']
+13:02:47.483 INFO  manager.MyListener - The element with locator--->By.xpath: //a[@href='/add']<----was found
+13:02:47.501 INFO  manager.HelperBase - Add contacts form opened
+13:02:47.501 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Name']
+13:02:47.508 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Name']<----was found
+13:02:47.569 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Last Name']
+13:02:47.575 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Last Name']<----was found
+13:02:47.637 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Phone']
+13:02:47.643 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Phone']<----was found
+13:02:47.708 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='email']
+13:02:47.714 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='email']<----was found
+13:02:47.780 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Address']
+13:02:47.785 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Address']<----was found
+13:02:47.848 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='description']
+13:02:47.856 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='description']<----was found
+13:02:47.917 INFO  manager.HelperBase - Fields contacts filled
+13:02:47.918 INFO  tests.TestBase - Fill addContact form:Contact(name=Max, lastName=Kugel, phone=586725569, email=no456a725@gmail.com, address=Bobruisk, description=friend)
+13:02:47.918 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Save']
+13:02:47.924 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Save']<----was found
+13:02:47.957 INFO  manager.HelperBase - Contact added
+13:02:48.458 INFO  manager.TestNgMyListener - onTestStartnull
+13:02:48.458 INFO  manager.MyListener - Start find element --->By.xpath: //*[@class='contact-item_card__2SOIM']
+13:02:48.468 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@class='contact-item_card__2SOIM']<----was found
+13:02:48.469 INFO  manager.MyListener - Start find element --->By.xpath: //*[@class='contact-item_card__2SOIM']
+13:02:48.477 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@class='contact-item_card__2SOIM']<----was found
+13:02:48.517 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Remove']
+13:02:48.528 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Remove']<----was found
+13:02:49.065 INFO  manager.MyListener - Start find element --->By.xpath: //*[@class='contact-item_card__2SOIM']
+13:02:49.071 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@class='contact-item_card__2SOIM']<----was found
+13:02:49.106 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Remove']
+13:02:49.114 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Remove']<----was found
+13:02:49.651 INFO  manager.MyListener - Start find element --->By.xpath: //*[@class='contact-item_card__2SOIM']
+13:02:49.656 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@class='contact-item_card__2SOIM']<----was found
+13:02:49.686 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Remove']
+13:02:49.693 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Remove']<----was found
+13:02:50.228 INFO  manager.MyListener - Start find element --->By.xpath: //*[@class='contact-item_card__2SOIM']
+13:02:50.233 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@class='contact-item_card__2SOIM']<----was found
+13:02:50.262 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Remove']
+13:02:50.270 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Remove']<----was found
+13:02:50.809 INFO  manager.MyListener - Start find element --->By.xpath: //*[@class='contact-item_card__2SOIM']
+13:02:50.816 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@class='contact-item_card__2SOIM']<----was found
+13:02:50.844 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Remove']
+13:02:50.852 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Remove']<----was found
+13:02:51.387 INFO  manager.MyListener - Start find element --->By.xpath: //*[@class='contact-item_card__2SOIM']
+13:02:58.424 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@class='contact-item_card__2SOIM']<----was found
+13:02:58.424 INFO  manager.TestNgMyListener - onTestSuccess
+13:02:58.425 INFO  tests.TestBase - ****************************************************************************************************
+13:02:58.425 INFO  manager.TestNgMyListener - onFinish
+13:02:59.001 INFO  manager.TestNgMyListener - onFinish

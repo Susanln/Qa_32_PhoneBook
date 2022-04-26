@@ -1,0 +1,22 @@
+13:16:24.891 INFO  manager.ApplicationManager - All tests start in 'ChromeDriver'
+13:16:25.515 INFO  tests.TestBase - Start test---->RemoveAllContact
+13:16:25.517 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:16:32.554 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:16:32.555 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/login']
+13:16:32.565 INFO  manager.MyListener - The element with locator--->By.cssSelector: [href='/login']<----was found
+13:16:32.614 INFO  manager.HelperBase - Login/Reg form opened
+13:16:32.614 INFO  manager.MyListener - Start find element --->By.xpath: //input[1]
+13:16:32.625 INFO  manager.MyListener - The element with locator--->By.xpath: //input[1]<----was found
+13:16:32.719 INFO  manager.MyListener - Start find element --->By.xpath: //input[2]
+13:16:32.728 INFO  manager.MyListener - The element with locator--->By.xpath: //input[2]<----was found
+13:16:32.811 INFO  manager.HelperBase - Fields log/reg form filled
+13:16:32.811 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()=' Login']
+13:16:32.820 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()=' Login']<----was found
+13:16:32.846 INFO  manager.HelperBase - Logged
+13:16:32.847 INFO  manager.MyListener - Start find element --->By.xpath: //*[@class='contact-item_card__2SOIM']
+13:16:39.870 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@class='contact-item_card__2SOIM']<----was found
+13:16:39.871 INFO  manager.MyListener - Start find element --->By.xpath: //*[@class='contact-item_card__2SOIM']
+13:16:46.891 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@class='contact-item_card__2SOIM']<----was found
+13:16:46.891 INFO  manager.MyListener - Start find element --->By.xpath: //*[@class='contact-item_card__2SOIM']
+13:16:53.904 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@class='contact-item_card__2SOIM']<----was found
+13:16:53.908 INFO  tests.TestBase - ****************************************************************************************************

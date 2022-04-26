@@ -1,0 +1,41 @@
+13:23:43.095 INFO  manager.ApplicationManager - All tests start in 'ChromeDriver'
+13:23:43.666 INFO  tests.TestBase - Start test---->RemoveAllContact
+13:23:43.668 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+13:23:50.698 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+13:23:50.700 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/login']
+13:23:50.710 INFO  manager.MyListener - The element with locator--->By.cssSelector: [href='/login']<----was found
+13:23:50.762 INFO  manager.HelperBase - Login/Reg form opened
+13:23:50.762 INFO  manager.MyListener - Start find element --->By.xpath: //input[1]
+13:23:50.774 INFO  manager.MyListener - The element with locator--->By.xpath: //input[1]<----was found
+13:23:50.865 INFO  manager.MyListener - Start find element --->By.xpath: //input[2]
+13:23:50.875 INFO  manager.MyListener - The element with locator--->By.xpath: //input[2]<----was found
+13:23:50.964 INFO  manager.HelperBase - Fields log/reg form filled
+13:23:50.965 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()=' Login']
+13:23:50.976 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()=' Login']<----was found
+13:23:51.003 INFO  manager.HelperBase - Logged
+13:23:51.003 INFO  manager.MyListener - Start find element --->By.xpath: //*[@class='contact-item_card__2SOIM']
+13:23:58.027 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@class='contact-item_card__2SOIM']<----was found
+13:23:58.032 INFO  manager.MyListener - Start find element --->By.cssSelector: [class='contact-page_leftdiv__yhyke'] div
+13:24:05.048 INFO  manager.MyListener - The element with locator--->By.cssSelector: [class='contact-page_leftdiv__yhyke'] div<----was found
+13:24:05.048 INFO  manager.MyListener - Start find element --->By.xpath: //a[@href='/add']
+13:24:05.057 INFO  manager.MyListener - The element with locator--->By.xpath: //a[@href='/add']<----was found
+13:24:05.091 INFO  manager.HelperBase - Add contacts form opened
+13:24:05.091 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Name']
+13:24:05.102 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Name']<----was found
+13:24:05.170 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Last Name']
+13:24:05.179 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Last Name']<----was found
+13:24:05.250 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Phone']
+13:24:05.259 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Phone']<----was found
+13:24:05.336 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='email']
+13:24:05.345 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='email']<----was found
+13:24:05.437 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='Address']
+13:24:05.446 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='Address']<----was found
+13:24:05.521 INFO  manager.MyListener - Start find element --->By.xpath: //*[@placeholder='description']
+13:24:05.531 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@placeholder='description']<----was found
+13:24:05.602 INFO  manager.HelperBase - Fields contacts filled
+13:24:05.617 INFO  tests.TestBase - Fill addContact form:Contact(name=Max, lastName=Kugel, phone=5861996569, email=no456a1996@gmail.com, address=Bobruisk, description=friend)
+13:24:05.617 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Save']
+13:24:05.627 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Save']<----was found
+13:24:05.652 INFO  manager.HelperBase - Contact added
+13:24:05.653 INFO  manager.MyListener - Start find element --->By.cssSelector: [class='contact-page_leftdiv__yhyke'] div
+13:24:06.033 INFO  manager.MyListener - The element with locator--->By.cssSelector: [class='contact-page_leftdiv__yhyke'] div<----was found

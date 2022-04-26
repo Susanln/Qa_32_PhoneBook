@@ -4,10 +4,15 @@ import models.Contact;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Function;
 
 public class ContactHelper extends HelperBase{
+    WebDriverWait wait= new WebDriverWait(wd,10);
 
     public ContactHelper(WebDriver wd) {
         super(wd);
@@ -29,7 +34,7 @@ public class ContactHelper extends HelperBase{
     }
 
     public void saveContact() {
-        click(By.xpath("//*[text()='Save']"));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='Save']"))).click();
         logger.info("Contact added");
     }
 
@@ -58,5 +63,37 @@ public class ContactHelper extends HelperBase{
             }
         }
         return false;
+    }
+
+    public void removeOneContactByNumber(String number) {
+        click(By.xpath("//*[text()='"+ number+"']/ancestor::div[1]"));
+        pause(500);
+        click(By.xpath("//*[text()='Remove']"));
+        pause(500);
+    }
+
+    public boolean isContactNotFound(String number) {
+       return isElementPresent(By.xpath("//*[text()='"+ number+"']/ancestor::div[1]"));
+    }
+
+    public void removeAllContacts() {
+        List<WebElement> list = new ArrayList<>();
+       list= wd.findElements(By.xpath("//*[@class='contact-item_card__2SOIM']"));
+       for(int i = 0; i<list.size(); i++)
+       {
+           wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class='contact-item_card__2SOIM']"))).click();
+           wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[text()='Remove']"))).click();
+          pause(500);
+       }
+    }
+
+    public boolean isContactsNotFound() {
+       return isElementPresent(By.xpath("//*[@class='contact-item_card__2SOIM']"));
+    }
+
+    public int isContactsSum() {
+        List<WebElement> list = new ArrayList<>();
+        list= wd.findElements(By.xpath("//*[@class='contact-item_card__2SOIM']"));
+        return list.size();
     }
 }

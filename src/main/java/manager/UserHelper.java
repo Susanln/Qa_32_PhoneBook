@@ -35,9 +35,7 @@ public class UserHelper extends HelperBase{
     }
 
 
-    public boolean isLoginRegistrationSuccess() {
-                return isElementPresent(By.xpath("//*[text()='Sign Out']"));
-    }
+
 
     public void submitRegistration() {
         click(By.xpath("//button[2]"));

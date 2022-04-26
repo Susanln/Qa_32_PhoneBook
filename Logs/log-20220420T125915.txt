@@ -1,0 +1,34 @@
+12:59:17.482 INFO  manager.ApplicationManager - All tests start in 'ChromeDriver'
+12:59:18.100 INFO  tests.TestBase - Start test---->RemoveAllContact
+12:59:18.101 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+12:59:25.132 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+12:59:25.134 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/login']
+12:59:25.144 INFO  manager.MyListener - The element with locator--->By.cssSelector: [href='/login']<----was found
+12:59:25.194 INFO  manager.HelperBase - Login/Reg form opened
+12:59:25.194 INFO  manager.MyListener - Start find element --->By.xpath: //input[1]
+12:59:25.206 INFO  manager.MyListener - The element with locator--->By.xpath: //input[1]<----was found
+12:59:25.297 INFO  manager.MyListener - Start find element --->By.xpath: //input[2]
+12:59:25.308 INFO  manager.MyListener - The element with locator--->By.xpath: //input[2]<----was found
+12:59:25.389 INFO  manager.HelperBase - Fields log/reg form filled
+12:59:25.390 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()=' Login']
+12:59:25.400 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()=' Login']<----was found
+12:59:25.425 INFO  manager.HelperBase - Logged
+12:59:25.426 INFO  manager.MyListener - Start find element --->By.xpath: //*[@class='contact-item_card__2SOIM']
+12:59:26.234 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@class='contact-item_card__2SOIM']<----was found
+12:59:26.236 INFO  manager.MyListener - Start find element --->By.xpath: //*[@class='contact-item_card__2SOIM']
+12:59:26.246 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@class='contact-item_card__2SOIM']<----was found
+12:59:26.304 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Remove']
+12:59:26.315 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Remove']<----was found
+12:59:26.851 INFO  manager.MyListener - Start find element --->By.xpath: //*[@class='contact-item_card__2SOIM']
+12:59:26.859 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@class='contact-item_card__2SOIM']<----was found
+12:59:26.888 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Remove']
+12:59:26.897 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Remove']<----was found
+12:59:27.431 INFO  manager.MyListener - Start find element --->By.xpath: //*[@class='contact-item_card__2SOIM']
+12:59:27.439 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@class='contact-item_card__2SOIM']<----was found
+12:59:27.466 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Remove']
+12:59:27.474 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Remove']<----was found
+12:59:28.007 INFO  manager.MyListener - Start find element --->By.xpath: //*[@class='contact-item_card__2SOIM']
+12:59:28.014 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@class='contact-item_card__2SOIM']<----was found
+12:59:28.041 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Remove']
+12:59:28.050 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Remove']<----was found
+12:59:28.583 INFO  tests.TestBase - ****************************************************************************************************

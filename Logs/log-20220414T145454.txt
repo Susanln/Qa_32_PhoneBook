@@ -1,0 +1,39 @@
+14:54:56.040 INFO  manager.ApplicationManager - All tests start in 'ChromeDriver'
+14:54:56.685 INFO  tests.TestBase - Start test---->RemoveAllContact
+14:54:56.687 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+14:55:03.715 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+14:55:03.716 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/login']
+14:55:03.727 INFO  manager.MyListener - The element with locator--->By.cssSelector: [href='/login']<----was found
+14:55:03.774 INFO  manager.HelperBase - Login/Reg form opened
+14:55:03.774 INFO  manager.MyListener - Start find element --->By.xpath: //input[1]
+14:55:03.786 INFO  manager.MyListener - The element with locator--->By.xpath: //input[1]<----was found
+14:55:03.873 INFO  manager.MyListener - Start find element --->By.xpath: //input[2]
+14:55:03.883 INFO  manager.MyListener - The element with locator--->By.xpath: //input[2]<----was found
+14:55:03.961 INFO  manager.HelperBase - Fields log/reg form filled
+14:55:03.961 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()=' Login']
+14:55:03.971 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()=' Login']<----was found
+14:55:03.996 INFO  manager.HelperBase - Logged
+14:55:03.997 INFO  manager.MyListener - Start find element --->By.xpath: //*[@class='contact-item_card__2SOIM']
+14:55:04.751 INFO  manager.MyListener - The element with locator--->By.xpath: //*[@class='contact-item_card__2SOIM']<----was found
+14:55:05.281 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Remove']
+14:55:05.291 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Remove']<----was found
+14:55:06.338 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Remove']
+14:55:06.345 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Remove']<----was found
+14:55:06.879 INFO  manager.MyListener - We have a 'throwable'---->stale element reference: element is not attached to the page document
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUSANLN', ip: '10.100.102.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\susan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ccb63533007e6c1235a8c5839ee3801
+14:55:06.880 INFO  manager.MyListener - We have a 'throwable'---->org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUSANLN', ip: '10.100.102.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\susan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ccb63533007e6c1235a8c5839ee3801
+14:55:07.768 INFO  manager.MyListener - This is the link to screen with problem--->C:/Users/susan/Documents/Qa_32_PhoneBook/src/screenshot/screen-3306.png
+14:55:07.770 INFO  tests.TestBase - ****************************************************************************************************

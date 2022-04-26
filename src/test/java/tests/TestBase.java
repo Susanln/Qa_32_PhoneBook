@@ -26,7 +26,7 @@ public class TestBase {
     @BeforeMethod
     public void startMethods(Method method)
     {
-        logger.info("Start test---->"+method);
+        logger.info("Start test---->"+method.getName());
     }
     @AfterMethod
     public void finishMethod()

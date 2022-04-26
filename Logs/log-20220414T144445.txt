@@ -1,0 +1,22 @@
+14:44:47.396 INFO  manager.ApplicationManager - All tests start in 'ChromeDriver'
+14:44:48.033 INFO  tests.TestBase - Start test---->removeOneContact
+14:44:48.035 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+14:44:55.065 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+14:44:55.066 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/login']
+14:44:55.077 INFO  manager.MyListener - The element with locator--->By.cssSelector: [href='/login']<----was found
+14:44:55.128 INFO  manager.HelperBase - Login/Reg form opened
+14:44:55.128 INFO  manager.MyListener - Start find element --->By.xpath: //input[1]
+14:44:55.139 INFO  manager.MyListener - The element with locator--->By.xpath: //input[1]<----was found
+14:44:55.224 INFO  manager.MyListener - Start find element --->By.xpath: //input[2]
+14:44:55.234 INFO  manager.MyListener - The element with locator--->By.xpath: //input[2]<----was found
+14:44:55.314 INFO  manager.HelperBase - Fields log/reg form filled
+14:44:55.314 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()=' Login']
+14:44:55.324 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()=' Login']<----was found
+14:44:55.351 INFO  manager.HelperBase - Logged
+14:44:55.352 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='586-546569']/ancestor::div[1]
+14:44:56.110 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='586-546569']/ancestor::div[1]<----was found
+14:44:56.640 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Remove']
+14:44:56.650 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Remove']<----was found
+14:44:57.172 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='586-546569']/ancestor::div[1]
+14:45:04.192 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='586-546569']/ancestor::div[1]<----was found
+14:45:04.195 INFO  tests.TestBase - ****************************************************************************************************

@@ -46,4 +46,8 @@ public class HelperBase {
             e.printStackTrace();
         }
     }
+    public boolean isLoginRegistrationSuccess() {
+        return isElementPresent(By.xpath("//*[text()='Sign Out']"));
+    }
+
 }

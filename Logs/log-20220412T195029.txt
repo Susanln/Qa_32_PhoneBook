@@ -1,0 +1,28 @@
+19:50:31.042 INFO  manager.ApplicationManager - All tests start in 'ChromeDriver'
+19:50:31.611 INFO  tests.TestBase - Start test---->public void tests.LoginTests.loginSuccessNewModel()
+19:50:31.613 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+19:50:38.655 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+19:50:38.658 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/login']
+19:50:38.669 INFO  manager.MyListener - The element with locator--->By.cssSelector: [href='/login']<----was found
+19:50:38.719 INFO  manager.HelperBase - Login/Reg form opened
+19:50:38.719 INFO  manager.MyListener - Start find element --->By.xpath: //inputa[1]
+19:50:45.767 INFO  manager.MyListener - We have a 'throwable'---->no such element: Unable to locate element: {"method":"xpath","selector":"//inputa[1]"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUSANLN', ip: '10.100.102.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\susan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63134}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aa0dbc81820c9850b6ec886173cbdea7
+*** Element info: {Using=xpath, value=//inputa[1]}
+19:50:45.767 INFO  manager.MyListener - We have a 'throwable'---->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//inputa[1]"}
+  (Session info: chrome=100.0.4896.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SUSANLN', ip: '10.100.102.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.14'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.75, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\susan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63134}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aa0dbc81820c9850b6ec886173cbdea7
+*** Element info: {Using=xpath, value=//inputa[1]}
+19:50:46.629 INFO  manager.MyListener - This is the link to screen with problem--->src/test/screenshot/screen-3045.png
+19:50:46.631 INFO  tests.TestBase - ****************************************************************************************************
