@@ -8,7 +8,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class RemoveContact extends TestBase{
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preConditions()
     {
         if (app.getContact().isLoginRegistrationSuccess()==false) {
@@ -29,9 +29,18 @@ public class RemoveContact extends TestBase{
 //        app.getContact().removeOneContactByNumber("586-546569");
 //        Assert.assertFalse(app.getContact().isContactNotFound("586-546569"));
 //    }
+    @Test(groups = {"web"})
+    public void removeOneContact(){
+        Assert.assertEquals(app.getContact().removeOneContact(),1);
+    }
     @Test
-    public void RemoveAllContact(){
+    public void removeAllContact(){
         app.getContact().removeAllContacts();
+        Assert.assertFalse(app.getContact().isContactsNotFound());
+    }
+    @Test
+    public void removeAllContactT(){
+        app.getContact().removeAllContactsT();
         Assert.assertFalse(app.getContact().isContactsNotFound());
     }
 

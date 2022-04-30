@@ -1,0 +1,6 @@
+10:26:11.479 INFO  manager.TestNgMyListener - onStart
+10:26:11.483 INFO  manager.TestNgMyListener - onStart
+10:26:11.509 INFO  manager.TestNgMyListener - onTestStartnull
+10:26:14.382 INFO  manager.TestNgMyListener - onTestSuccess
+10:26:14.384 INFO  manager.TestNgMyListener - onFinish
+10:26:14.385 INFO  manager.TestNgMyListener - onFinish

@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class LoginTests extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         if (app.getUser().isLoginRegistrationSuccess()) {
             app.getUser().logout();
@@ -25,12 +25,26 @@ public class LoginTests extends TestBase {
         Assert.assertTrue(app.getUser().isLoginRegistrationSuccess());
     }
 
-    @Test
+    @Test(groups = {"web"})
     public void loginSuccessNewModel() {
         User user = new User().withEmail("asdhgf@gmail.com").withPassword("Nnoa12345$");
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(user);
         logger.info("Loggin with:"+ user.toString());
+        app.getUser().submitLogin();
+        Assert.assertTrue(app.getUser().isLoginRegistrationSuccess());
+    }
+    @Test(dataProvider = "validModelLogin", dataProviderClass = MyDataProvider.class)
+    public void loginSuccessNewModel(User user) {
+        app.getUser().openLoginRegistrationForm();
+        app.getUser().fillLoginRegistrationForm(user);
+        app.getUser().submitLogin();
+        Assert.assertTrue(app.getUser().isLoginRegistrationSuccess());
+    }
+    @Test(dataProvider = "validModelCSV", dataProviderClass = MyDataProvider.class)
+    public void loginSuccessNewModelCSV(User user) {
+        app.getUser().openLoginRegistrationForm();
+        app.getUser().fillLoginRegistrationForm(user);
         app.getUser().submitLogin();
         Assert.assertTrue(app.getUser().isLoginRegistrationSuccess());
     }

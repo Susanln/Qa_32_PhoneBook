@@ -1,0 +1,18 @@
+19:38:03.678 INFO  manager.ApplicationManager - All tests start in 'ChromeDriver'
+19:38:04.226 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+19:38:11.266 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+19:38:11.267 INFO  manager.MyListener - Start find element --->By.cssSelector: [href='/login']
+19:38:11.278 INFO  manager.MyListener - The element with locator--->By.cssSelector: [href='/login']<----was found
+19:38:11.325 INFO  manager.HelperBase - Login/Reg form opened
+19:38:11.325 INFO  manager.MyListener - Start find element --->By.xpath: //input[1]
+19:38:11.338 INFO  manager.MyListener - The element with locator--->By.xpath: //input[1]<----was found
+19:38:11.431 INFO  manager.MyListener - Start find element --->By.xpath: //input[2]
+19:38:11.440 INFO  manager.MyListener - The element with locator--->By.xpath: //input[2]<----was found
+19:38:11.526 INFO  manager.HelperBase - Fields log/reg form filled
+19:38:11.532 INFO  tests.TestBase - Loggin with:User{Email='asdhgf@gmail.com', password='Nnoa12345$'}
+19:38:11.532 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()=' Login']
+19:38:11.541 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()=' Login']<----was found
+19:38:11.568 INFO  manager.HelperBase - Logged
+19:38:11.568 INFO  manager.MyListener - Start find element --->By.xpath: //*[text()='Sign Out']
+19:38:12.053 INFO  manager.MyListener - The element with locator--->By.xpath: //*[text()='Sign Out']<----was found
+19:38:12.055 INFO  tests.TestBase - Logged with:asdhgf@gmail.com,Nnoa12345$

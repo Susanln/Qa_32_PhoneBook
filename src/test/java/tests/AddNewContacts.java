@@ -1,23 +1,21 @@
 package tests;
 
+import manager.MyDataProvider;
 import models.Contact;
 import org.testng.Assert;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class AddNewContacts extends TestBase{
-    @BeforeSuite
+    @BeforeSuite(alwaysRun = true)
     public void preConditions(){
         if(app.getUser().isLoginRegistrationSuccess()==false)
         {
-            app.getUser().openLoginRegistrationForm();
-            app.getUser().fillLoginRegistrationForm("asdhgf@gmail.com","Nnoa12345$");
-            app.getUser().submitLogin();
-            Assert.assertTrue(app.getUser().isLoginRegistrationSuccess());
+            new LoginTests().loginSuccessNewModel();
         }logger.info("Logged with:asdhgf@gmail.com,Nnoa12345$" );
 
     }
-    @Test
+    @Test(groups = {"web","reg","quick"})
     public void addNewContactSuccess(){
         int index = (int)System.currentTimeMillis()/1000%3600;
         Contact contact = Contact.builder().name("Max").lastName("Kugel").phone("586"+ index + "569").email("no456a" +index +"@gmail.com")
@@ -44,5 +42,19 @@ public class AddNewContacts extends TestBase{
         logger.info("Fill addContact form:" + contact.toString());
         app.getContact().saveContact();
 
+    }
+    @Test(dataProvider = "validDataContact",dataProviderClass = MyDataProvider.class)
+    public void addNewContactDataProviderCSV(Contact contact){
+        int index = (int)System.currentTimeMillis()/1000%3600;
+        contact.setEmail("no456a" +index +"@gmail.com");
+        contact.setPhone("586"+ index + "569");
+
+
+        app.getContact().openAddForm();
+        app.getContact().fillAddContactForm(contact);
+        logger.info("Fill addContact form:" + contact.toString());
+        app.getContact().saveContact();
+        Assert.assertTrue(app.getContact().isContactByName(contact.getName()));
+        Assert.assertTrue(app.getContact().isContactByPhone(contact.getPhone()));
     }
 }

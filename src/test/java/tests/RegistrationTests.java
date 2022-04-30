@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class RegistrationTests extends TestBase {
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition()
     {
         if(app.getUser().isLoginRegistrationSuccess())
@@ -25,7 +25,7 @@ public class RegistrationTests extends TestBase {
 
 
     }
-    @Test
+    @Test(groups = {"web"})
     public void registrationSuccessModel() {
         int index = (int)System.currentTimeMillis()/1000%3600;
         User user = new User().withEmail("no456b" +index +"@gmail.com").withPassword("Nnoa12345$");

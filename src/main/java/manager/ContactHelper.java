@@ -77,8 +77,7 @@ public class ContactHelper extends HelperBase{
     }
 
     public void removeAllContacts() {
-        List<WebElement> list = new ArrayList<>();
-       list= wd.findElements(By.xpath("//*[@class='contact-item_card__2SOIM']"));
+        List<WebElement> list = wd.findElements(By.xpath("//*[@class='contact-item_card__2SOIM']"));
        for(int i = 0; i<list.size(); i++)
        {
            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class='contact-item_card__2SOIM']"))).click();
@@ -95,5 +94,32 @@ public class ContactHelper extends HelperBase{
         List<WebElement> list = new ArrayList<>();
         list= wd.findElements(By.xpath("//*[@class='contact-item_card__2SOIM']"));
         return list.size();
+    }
+
+    public int removeOneContact() {
+        int countBefore = countOfContacts();
+        if(!isCountListEmpty()){
+            click(By.xpath("//*[@class='contact-item_card__2SOIM']"));
+            click(By.xpath("//*[text()='Remove']"));
+            pause(500);
+        }
+       int countAfter = countOfContacts();
+        return countBefore-countAfter;
+    }
+
+    private boolean isCountListEmpty() {
+        return wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).isEmpty();
+    }
+
+    private int countOfContacts() {
+        return wd.findElements(By.cssSelector(".contact-item_card__2SOIM")).size();
+    }
+
+    public void removeAllContactsT() {
+        while( wd.findElements(By.xpath("//*[@class='contact-item_card__2SOIM']")).size()!=0) {
+            click(By.xpath("//*[@class='contact-item_card__2SOIM']"));
+            click(By.xpath("//*[text()='Remove']"));
+            pause(500);
+        }
     }
 }
