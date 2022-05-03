@@ -5,9 +5,7 @@
     <test name="Regression">
         <classes>
             <class name="tests.LoginTests"/>
-            <class name="tests.AddNewContacts"/>
             <class name="tests.RegistrationTests"/>
-            <class name="tests.RemoveContact"/>
         </classes>
     </test>
 </suite>
